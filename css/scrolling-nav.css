@@ -1,0 +1,61 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 150px 0;
+  height: 100vh;
+}
+
+.zaradie
+{
+	background-image: url(img/parks/zaradie/zar.jpg);
+	height: 100vh;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+}
+
+td
+{
+	text-align: center; 
+    vertical-align: middle;
+}
+
+.charichino
+{
+	background-image: url(img/parks/chari/zabor.jpg);
+	height: 100vh;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.parkG
+{
+	background-image: url(img/parks/pg/kts_snaruzhi.jpg);
+	height: 100vh;
+	background-size: 100%;
+	background-repeat: no-repeat;	
+	color: white;
+}
+
+.vdnh
+{
+	background-image: url(img/parks/vdnh/vdnh5.jpg);
+	height: 100vh;
+	background-size: 100%;
+	background-repeat: no-repeat;	
+	color: white;
+}
