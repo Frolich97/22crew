@@ -19,13 +19,48 @@ section {
   height: 100vh;
 }
 
+.almaz
+{
+	background-image: url(img/museum/bckg/almaz.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.bunker
+{
+	background-image: url(img/museum/bckg/bunker.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.darwin
+{
+	background-image: url(img/museum/bckg/darwin.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.plan
+{
+	background-image: url(img/museum/bckg/plan.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
 .zaradie
 {
 	background-image: url(img/parks/zaradie/zar.jpg);
 	height: 100vh;
 	background-size: 100%;
 	background-repeat: no-repeat;
-	
 }
 
 td

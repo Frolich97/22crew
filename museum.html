@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Музеи Москвы</title>
+	
+
+	<!-- fancyBox -->
+	<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />
+	   <style>
+        .thumb img {
+            -webkit-filter: grayscale(0);
+            filter: none;
+            border-radius: 5px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 5px;
+        }
+ 
+        .thumb img:hover {
+            -webkit-filter: grayscale(1);
+            filter: grayscale(1);
+        }
+ 
+        .thumb {
+            padding: 5px;
+        }
+    </style -->
+		<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
+	<!-- fancyBox END -->
+	
+	<!-- Table Styles -->	
+<script>
+$(document).ready(function(){
+ 
+    $('#open').click(function(){
+        $('#result').css('display','table');
+    });
+ 
+});
+</script>
+ <script>
+$(document).ready(function(){
+ 
+    $('#open1').click(function(){
+        $('#result1').css('display','table');
+    });
+ 
+});
+</script>
+ 
+<style>
+#result {
+    display: none;
+}
+#result1 {
+    display: none;
+}
+</style>
+
+	<!-- Table end -->>
+	
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	
+    <!-- Custom styles for this template -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+	<!--link rel="stylesheet" href="css/main.css"-->
+  </head>
+
+  <body id="page-top">
+
+     <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Москва</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="parks.html">Парки</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#" data-toggle="modal" data-target=".techModal">Театры</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="museum.html">Музеи</a>
+			 </li>
+			 <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#" data-toggle="modal" data-target=".techModal">Кинотеатры</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="almaz" class="panel almaz" data-toggle="modal" data-target=".almazModal">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Алмазный фонд</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="bunker" class="bg-light panel bunker" data-toggle="modal" data-target=".bunkerModal">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <!--h2>Бункер-42</h2-->
+		  </div>
+        </div>
+      </div>
+    </section>
+	
+	<section id="darwin" class="panel darwin" data-toggle="modal" data-target=".darwinModal">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Государственный музей им. Дарвина</h2>
+           </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="plan" class="bg-light panel plan" data-toggle="modal" data-target=".planModal">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <!--h2>Московский планетарий</h2-->
+          </div>
+        </div>
+      </div>
+    </section>
+	
+	
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark panel">
+      <div class="container">
+       <p class="m-0 text-center text-white">Копирайт &copy; Но это не точно 2018</p>
+	   <p class="m-0 text-center text-white">Если у вас есть какие-либо вопросы и пожелания, то вы можете связаться с нами, заполнив следующую <a href="#" data-toggle="modal" data-target=".formModal">форму</a></p>
+	 
+
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+	<script src="js/jquery.easing.min.js"></script>
+	
+
+	
+	
+	<!-- ModalAlmaz -->
+<div class="modal fade almazModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="almazModal">Алмазный Фонд</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Главная сокровищница российского государства, расположенная в Кремле в одноимённом музее, самое посещаемое место Москвы.<br>
+		Круглый год здесь стоят очереди желающих посмотреть на коллекцию уникальных драгоценностей.<br>
+		Ещё Пётр Первый издал указ о строгой сохранности драгоценных предметов роскоши царских семей для государства.<br>
+		Сначала всё то, что относилось к сокровищам, хранилось в Бриллиантовом кабинете Зимнего дворца.<br>
+		В годы Первой мировой войны их перевезли в Кремль, где они пробыли 8 лет до экспертизы, проведённой специальной комиссией.<br>
+		Она определила подлинную ценность предметов и вынесла решение о неприкосновенности коллекции и необходимости включения её в состав Гохрана СССР.</p>
+			   <details>
+	   <summary>Галерея</summary>
+	   <div class="row">
+	   <div class="col-lg-4 col-md-4 col-6 thumb">
+                        <a data-fancybox="gallery" href="css/img/museum/almaz/1.jpg">
+                <img class="img-fluid" src="css/img/museum/almaz/1.jpg" alt="...">
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-6 thumb">
+                        <a data-fancybox="gallery" href="css/img/museum/almaz/2.jpg">
+                <img class="img-fluid" src="css/img/museum/almaz/2.jpg" alt="...">
+            </a>
+        </div>
+		<div class="col-lg-4 col-md-4 col-6 thumb">
+                        <a data-fancybox="gallery" href="css/img/museum/almaz/3.jpg">
+                <img class="img-fluid" src="css/img/museum/almaz/3.jpg" alt="...">
+            </a>
+        </div>
+		</div>
+		<div class="row">
+		<div class="col-lg-6 col-md-6 col-6 thumb">
+                        <a data-fancybox="gallery" href="css/img/museum/almaz/4.jpg">
+                <img class="img-fluid" src="css/img/museum/almaz/4.jpg" alt="...">
+            </a>
+        </div>
+		<div class="col-lg-6 col-md-6 col-6 thumb">
+                        <a data-fancybox="gallery" href="css/img/museum/almaz/5.jpg">
+                <img class="img-fluid" src="css/img/museum/almaz/5.jpg" alt="...">
+            </a>
+        </div>
+		</div>
+		</details>
+		<details>
+		<summary>Контакты</summary>
+<p> Москва, Кремль. Вход в Кремль через Боровицкие ворота.</P>
+<p>ЧАСЫ РАБОТЫ:<br>
+Сеансы ежедневно с 10:00 до 17:20, кроме четверга, с интервалом 20 минут.<br>
+ Перерыв с 13:00 до 14:00.</p>
+<p>ТЕЛЕФОН ДЛЯ СПРАВОК:<br>
++7 (495) 629-20-36</p>
+</details>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-primary" onclick="window.open('http://www.gokhran.ru/ru/diamond-fund/')">Сайт</button>
+      </div>
+    </div>
+</div> 
+</div>
+</div>
+  <!-- конец модального окна Almaz-->
+  
+  <!-- ModalBunker -->
+<div class="modal fade bunkerModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="bunkerModal">Бункер-42 на Таганке</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+	  <p>Подземный бункер-42, занимающий площадь 7 тыс. кв. м на глубине, превышающей 60 м, был оборудован в 50-е годы 20 века как надёжное убежище от опасности ядерной бомбардировки в период «холодной войны» между США и СССР. 
+	  Строительство велось в строгой секретности, объект именовался как подстанция метрополитена, и на самом деле, тоннели бункера имеют выход на кольцевую станцию метро «Таганская». 
+	  После принятия секретного объекта (1956 год) в нём круглосуточно несли дежурство офицеры и служащие Штаба дальней авиации.
+	  Каждый год помещения бункера пополнялись запасами пресной воды и продуктового питания на случай ядерной войны.
+	  Только в 2000 году после падения «железного занавеса» бункер был рассекречен, и сейчас является музейно-развлекательным комплексом (с 2006 года).</p>
+	  <p>
+		Посещая этот своеобразный музей, ещё раз задумываешься о том, сколько сил и финансов приходится вкладывать в защиту людей друг от друга. 
+		К сожалению, современная политическая обстановка убеждает, что необходимость в этом не отпала до сих пор. 
+		Внешняя часть музея-бункера представлена в виде обычного кирпичного здания, куда входят посетители комплекса. 
+		Поражают массивные толстые двери, ведущие в подземелье. 
+		Они представляют собой металлическую коробку толщиной 40 см, залитую внутри бетоном. 
+		Основные залы бункера находятся на уровне 18-го этажа под землёй – к ним приходится спускаться по 65-метровой лестнице, ведущей вниз. 
+		Лабиринты коридоров с многочисленными поворотами создают таинственную загадочность обстановки и наводят на мысль, что такое сооружение могло бы защитить от любой катастрофы. 
+		В просторных помещениях оборудованы командный пункт, средства связи, вентиляционные установки, склады с оружием и военной техникой.
+		Элементом необычной экскурсии является демонстрация документального фильма на тему холодной войны.
+		</p>
+		<p>
+		Желающие могут произвести символический запуск ракеты или оказаться в обстановке ядерной опасности, когда гаснет свет, включается сирена.
+		Присутствующие надевают противогазы и идут в указанный экскурсоводами зал.
+		Здесь можно примерить на себя спецобмундирование и вооружиться средствами защиты, можно сфотографироваться на память в таком «прикиде» и под конец пожелать, чтобы всё это не пригодилось в реальной жизни
+		</p>	
+<details>		
+	<summary>Галерея</summary>
+	   <div class="row">
+	   <div class="col-lg-3 col-md-3 col-3 thumb">
+                        <a data-fancybox="gallery" href="css/img/museum/bunker/1.jpg">
+                <img class="img-fluid" src="css/img/museum/bunker/1.jpg" alt="...">
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-3 col-3 thumb">
+                        <a data-fancybox="gallery" href="css/img/museum/bunker/2.jpg">
+                <img class="img-fluid" src="css/img/museum/bunker/2.jpg" alt="...">
+            </a>
+        </div>
+		<div class="col-lg-3 col-md-3 col-3 thumb">
+                        <a data-fancybox="gallery" href="css/img/museum/bunker/3.jpg">
+                <img class="img-fluid" src="css/img/museum/bunker/3.jpg" alt="...">
+            </a>
+        </div>
+		<div class="col-lg-3 col-md-3 col-3 thumb">
+                        <a data-fancybox="gallery" href="css/img/museum/bunker/4.jpg">
+                <img class="img-fluid" src="css/img/museum/bunker/4.jpg" alt="...">
+            </a>
+        </div>
+		</div>
+		</details>
+	<details>
+		<summary>Контакты</summary>
+		<p>Адрес:<br>115172, г. Москва, 5-й Котельнический переулок, д.11.<br>
+		ОРИЕНТИР — 3-х этажный желтый особняк,зеленые ворота с красной звездой </p>
+<ul>Телефоны
+<li>+7(499) 703-44-55</li>
+<li>+7(495) 500-05-53</li>
+</ul>
+<p>По вопросам мероприятий обращаться по t.:<br>
+ <ul><li>+7 (499) 703-00-77</li></ul>
+
+</details>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-primary" onclick="window.open('http://bunker42.com/')">Сайт</button>
+      </div>
+    </div>
+</div>
+</div>
+</div><!-- конец модального окна -->
+
+  <!-- ModalDARWIN -->
+<div class="modal fade darwinModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="darwinModal">Государственный музей им. Дарвина</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+	  <p>
+	  Один из самых грандиозных зоологических музеев Европы – Государственный Дарвиновский музей, по отзывам посетителей, является и самым интересным, особенно для школьников.
+	  Он открылся больше века назад как заведение, которое было призвано удовлетворить стремление людей больше узнать о природе, о существовании живых организмов в ней.
+	  Буквально с первых минут посещения всех ожидает полное таинственности погружение в этапы развития жизни на планете Земля через демонстрацию фильма, спроектированного прямо на стены зала.
+	  Создаётся впечатление, что присутствующие – непосредственные участники страшных катаклизмов со взрывами, гибелью динозавров, зарождением новых цивилизаций.
+	  </p>
+
+	  <p>
+	  В главном зале музея ожидают встречи с многочисленными представителями фауны, начиная от чучел мамонтов до крохотных зверьков. 
+	  Здесь же интригующая модель самого первого батискафа, войдя в который, можно увидеть из иллюминатора огромного моржа, диковинных рыб, причудливые раковины и фантастические водоросли.
+	  Даже на полу здесь размещены иллюминаторы, через которые проглядывает что-то интересное. 
+	  Широко знакомят экспозиции музея с животным миром Подмосковья и Средней России, развивая интерес юного поколения к краеведению. 
+	  Даже для самых маленьких здесь продуманы забавные аттракционы-стенды с кнопками, издающими при нажатии птичьи голоса или грозный рык льва и т. д.
+	  У всех, независимо от возраста, после посещения уникального музея остаются незабываемые впечатления.
+	  </p>
+	  <details>		
+	<summary>Галерея</summary>
+	   <div class="row">
+	   <div class="col-lg-3 col-md-3 col-3 thumb">
+                        <a data-fancybox="gallery" href="css/img/museum/darwin/1.jpg">
+                <img class="img-fluid" src="css/img/museum/darwin/1.jpg" alt="...">
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-3 col-3 thumb">
+                        <a data-fancybox="gallery" href="css/img/museum/darwin/2.jpg">
+                <img class="img-fluid" src="css/img/museum/darwin/2.jpg" alt="...">
+            </a>
+        </div>
+		<div class="col-lg-3 col-md-3 col-3 thumb">
+                        <a data-fancybox="gallery" href="css/img/museum/darwin/3.jpg">
+                <img class="img-fluid" src="css/img/museum/darwin/3.jpg" alt="...">
+            </a>
+        </div>
+		<div class="col-lg-3 col-md-3 col-3 thumb">
+                        <a data-fancybox="gallery" href="css/img/museum/darwin/4.jpg">
+                <img class="img-fluid" src="css/img/museum/darwin/4.jpg" alt="...">
+            </a>
+        </div>
+		</div>
+		</details>
+	  		<details>
+		<summary>Контакты</summary>
+<p>Адрес музея: 117292, Москва, ул.Вавилова, 57<br>
+<ul>Время работы
+<li>с 10:00 до 18:00 ежедневно кроме понедельника</li>
+<li>Выставочный комплекс по четвергам работает с 13:00 до 21:00</li>
+</ul>
+<ul>Телефоны
+<li>Телефон: 8 (499) 783-22-53 (автоответчик)</li>
+<li>Экскурсионное бюро: 8 (499) 134-61-24</li>
+<li>День рождения в музее: 8 (499) 724-19-64, 8 (499) 783-22-57</li>
+</ul></p>
+</details>
+	      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-primary" onclick="window.open('http://www.darwinmuseum.ru/')">Сайт</button>
+      </div>
+    </div>
+</div>
+</div>
+</div><!-- конец модального окна -->
+  
+
+  <!-- ModalPLAN -->
+<div class="modal fade planModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="planModal">Московский планетарий</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+	 <p>
+	 Старейший планетарий России был открыт недалеко от Садового кольца в 1929 году и сейчас, по сути, является научно-развлекательным комплексом, оснащённым интерактивными залами, выставочными экспозициями и тематическими музеями.
+	 Внизу находится Малый звёздный зал, где идёт для детей показ документальных фильмов (некоторые из них создаются сотрудниками). 
+	 Интерактивный Музей Лунариум знакомит с физическими и астрономическими явлениями, с историей исследования космоса.
+	 Музей Урании знакомит с историей создания оборудования для созерцательного изучения вселенского пространства.
+	 В «Урании» оформлена выставка глобусов, космических тел, создана модель Солнечной системы.
+	 </p>
+	 <p>
+	 В Большой и Малой обсерваториях установлены соответственные телескопы (300 и 400 м в диаметрах). 
+	 Первым пользуются посетители, вторым – сотрудники для исследований.
+	 Парком неба называется площадка астрономов, на которой под открытым небом установлены астрономические приборы разных эпох.
+	 На самом верху планетария (третий уровень) в Большом звёздном зале установлен проекторный телескоп, позволяющий обозреть почти 9000 космических тел и проследить их движение по небесной сфере. 
+	 Планетарий постоянно совершенствует свои интерактивные детские программы
+	 </p>
+	  <details>		
+	<summary>Галерея</summary>
+	   <div class="row">
+	   <div class="col-lg-3 col-md-3 col-3 thumb">
+                        <a data-fancybox="gallery" href="css/img/museum/plan/1.jpg">
+                <img class="img-fluid" src="css/img/museum/plan/1.jpg" alt="...">
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-3 col-3 thumb">
+                        <a data-fancybox="gallery" href="css/img/museum/plan/2.jpg">
+                <img class="img-fluid" src="css/img/museum/plan/2.jpg" alt="...">
+            </a>
+        </div>
+		<div class="col-lg-3 col-md-3 col-3 thumb">
+                        <a data-fancybox="gallery" href="css/img/museum/plan/3.jpg">
+                <img class="img-fluid" src="css/img/museum/plan/3.jpg" alt="...">
+            </a>
+        </div>
+		<div class="col-lg-3 col-md-3 col-3 thumb">
+                        <a data-fancybox="gallery" href="css/img/museum/plan/4.jpg">
+                <img class="img-fluid" src="css/img/museum/plan/4.jpg" alt="...">
+            </a>
+        </div>
+		</div>
+		</details>
+	  		<details>
+		<summary>Контакты</summary>
+<p>Адрес музея: Россия, 123242, г. Москва, 
+ул.Садовая-Кудринская, д. 5, стр. 1 
+<br>
+<ul>Время работы
+<li>Выходной день: вторник</li>
+<li>Залы планетария: 10:00 - 21:00</li>
+</ul>
+<ul><li>Телефон: + 7 (495) 221 76 90 </li></ul></p>
+</details>
+	      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+       <button type="button" class="btn btn-primary" onclick="window.open('http://planetarium-moscow.ru/')">Сайт</button>
+      </div>
+    </div>
+</div>
+</div>
+</div><!-- конец модального окна -->  
+  
+  <!-- ModalFORM -->
+  <div class="modal fade formModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="formModal">Обратная связь</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="php/form.php" method="get" class="text-white">
+  <div class="form-group">
+    <label for="name">Ваше имя: </label>
+    <input type="text" class="form-control" name="name" placeholder="Ваше Имя">
+  </div>
+  <div class="form-group">
+    <label for="E-mail">E-mail</label>
+    <input type="text" class="form-control" name="mail" placeholder="email@example.com">
+  </div>
+  <div class="form-group">
+    <label for="message">Комментарий</label>
+    <textarea class="form-control" rows="3" name="text" placeholder="Ваш комментарий"></textarea>
+  </div>
+  </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+        <button type="submit" class="btn btn-default">Отправить</button>
+      </div>
+    </div>
+</div> 
+</div>
+
+<!-- ModalClose -->
+  <div class="modal fade techModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="techModal">Тех.работы</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Извините, в данном разделе идут Тех. Работы.</p>
+		<p>Мы скоро откроемся</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+</div> 
+</div>		
+		
+		<!-- search.js scripts-->
+	<script src="js/search.js"></script>
+	<script src="js/searchCHAR.js"></script>
+	  
+  </body>
+
+</html>
