@@ -94,3 +94,39 @@ td
 	background-repeat: no-repeat;	
 	color: white;
 }
+
+.solovey
+{
+	background-image: url(img/kino/bckg/solovey.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.pioner
+{
+	background-image: url(img/kino/bckg/pioner.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.illy
+{
+	background-image: url(img/kino/bckg/illy.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.mi
+{
+	background-image: url(img/kino/bckg/mi.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}

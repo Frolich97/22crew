@@ -1,0 +1,475 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Кинотеатры Москвы</title>
+	
+
+	<!-- fancyBox -->
+	<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />
+	   <style>
+        .thumb img {
+            -webkit-filter: grayscale(0);
+            filter: none;
+            border-radius: 5px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 5px;
+        }
+ 
+        .thumb img:hover {
+            -webkit-filter: grayscale(1);
+            filter: grayscale(1);
+        }
+ 
+        .thumb {
+            padding: 5px;
+        }
+    </style -->
+		<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
+	<!-- fancyBox END -->
+	
+	<!-- Table Styles -->	
+<script>
+$(document).ready(function(){
+ 
+    $('#open').click(function(){
+        $('#result').css('display','table');
+    });
+ 
+});
+</script>
+ <script>
+$(document).ready(function(){
+ 
+    $('#open1').click(function(){
+        $('#result1').css('display','table');
+    });
+ 
+});
+</script>
+ 
+<style>
+#result {
+    display: none;
+}
+#result1 {
+    display: none;
+}
+</style>
+
+	<!-- Table end -->>
+	
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	
+    <!-- Custom styles for this template -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+	<!--link rel="stylesheet" href="css/main.css"-->
+  </head>
+
+  <body id="page-top">
+
+     <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Москва</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="parks.html">Парки</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#" data-toggle="modal" data-target=".techModal">Театры</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="museum.html">Музеи</a>
+			 </li>
+			 <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="cinemas.html">Кинотеатры</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="solovey" class="panel solovey" data-toggle="modal" data-target=".soloveyModal">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Киноцентр Соловей</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="illy" class="bg-light panel illy" data-toggle="modal" data-target=".illyModal">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <!--h2>Бункер-42</h2-->
+		  </div>
+        </div>
+      </div>
+    </section>
+	
+	<section id="pioner" class="panel pioner" data-toggle="modal" data-target=".pionerModal">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <!--h2>Кинотеатр Пионер</h2-->
+           </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="mi" class="bg-light panel mi" data-toggle="modal" data-target=".miModal">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Кинотеатр Мир искусства</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+	
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark panel">
+      <div class="container">
+       <p class="m-0 text-center text-white">Копирайт &copy; Но это не точно 2018</p>
+	   <p class="m-0 text-center text-white">Если у вас есть какие-либо вопросы и пожелания, то вы можете связаться с нами, заполнив следующую <a href="#" data-toggle="modal" data-target=".formModal">форму</a></p>
+	 
+
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+	<script src="js/jquery.easing.min.js"></script>
+	
+
+	
+	
+	<!-- ModalSolovey -->
+<div class="modal fade soloveyModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="soloveyModal">Киноцентр Соловей</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Киноцентр Соловей – самый многозальный кинотеатр России, СНГ и Восточной Европы.<br>
+		Киноцентр Соловей – один из последних независимых кинотеатров России, не входящий ни в одну сеть.<br>
+		На данный момент в киноцентре функционируют 24 зала, оборудованных новейшей кинопроекционной и звуковой аппаратурой.<br>
+		В зале №1 гигантский экран 23x10 метра - при таких размерах экрана и сравнительно небольшом зале достигается эффект полного погружения в действие фильма.</p>
+		<p>В Киноцентре на Красной Пресне ежедневно большой выбор фильмов.<br>
+		Помимо новых фильмов, можно увидеть лучшие фильмы года.<br> 
+		Это очень удобно: если пропустили что-то интересное, просто повнимательнее изучите репертуар данного киноцентра.<br>
+		</p>
+		<p>Также у КЦ "Соловей" есть свой <a href="https://kinocenter.ru/guide.pdf" target="_blank">путеводитель</a></p> 
+			   <details>
+	   <summary>Галерея</summary>
+	   <div class="row">
+	   <div class="col-lg-4 col-md-4 col-6 thumb">
+                        <a data-fancybox="gallery" href="css/img/kino/solovey/1.jpg">
+                <img class="img-fluid" src="css/img/kino/solovey/1.jpg" alt="...">
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-6 thumb">
+                        <a data-fancybox="gallery" href="css/img/kino/solovey/2.jpg">
+                <img class="img-fluid" src="css/img/kino/solovey/2.jpg" alt="...">
+            </a>
+        </div>
+		<div class="col-lg-4 col-md-4 col-6 thumb">
+                        <a data-fancybox="gallery" href="css/img/kino/solovey/3.jpg">
+                <img class="img-fluid" src="css/img/kino/solovey/3.jpg" alt="...">
+            </a>
+        </div>
+		</div>
+		</details>
+		<details>
+		<summary>Контакты</summary>
+<p> г. Москва, ул. Дружинниковская, д. 15
+<ul>Телефоны:
+<li>8 (495) 605-73-06</li>
+<li>8 (965) 233-11-73</li>
+</ul></p>
+</details>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-primary" onclick="window.open('https://kinocenter.ru/repertoire/')">Купить билеты</button>
+      </div>
+    </div>
+</div> 
+</div>
+</div>
+  <!-- конец модального окна-->
+  
+  <!-- ModalIlly -->
+<div class="modal fade illyModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="illyModal">Кионтеатр Иллюзион</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+	  <p>Март 1966 года. В центре Москвы происходит событие, которое разделяет культурную жизнь на до и после: в здании высотки на Котельнической набережной открывается кинотеатр.</p>
+	  <p>Здесь советские зрители получили возможность увидеть лучшие, не показанные ранее фильмы и убедиться, что кино – это действительно искусство. 
+	  Сегодня в век изобилия трудно понять мотивы тех, кто отстаивал гигантские очереди за билетами, чтобы попасть на сеанс, но людям той эпохи мог не представиться больше шанс увидеть, например, шедевр Фрица Ланга или новую экзистенциальную драму Микеланджело Антониони.</p>
+	  <p>«Иллюзион» раскрыл окно в самобытный мир и помог обрести зрителям духовную свободу. 
+	  Внутри этих стен не думали об идеологии или цензуре, предпочитая с увлечением говорить о выразительных средствах и актерской игре, находить единомышленников.</p>
+	  <p>Время шло, менялись эпохи и политические курсы, но этот «островок независимости» продолжал осуществлять свою просветительскую деятельность.</p>
+	  <p>Вот уже более 50 лет «Иллюзион» ждет посетителей в гости, чтобы подарить путешествие в сказку. Кинотеатр стал местом, где традиции прошлого соединились с требованиями настоящего.</p>
+	  <p>Здесь не продают попкорн и не показывают блокбастеры. В основе репертуара — шедевры мирового кинематографа из коллекции Госфильмофонда России, а также современные авторские картины.</p>
+	  <p>Зал кинотеатра рассчитан на 217 мест, оснащен современным театральным светом и оборудованием для демонстрации 35 mm-фильмов, видео по технологии 3D, цифровых видеодисков blu-ray, DCP и системой звуковоспроизведения по технологии Dolby Surround EX.</p>
+	<p>Традиционно в «Иллюзионе» проводятся ретроспективы, фестивали современных зарубежных фильмов, кинолектории, тематические вечера, встречи с кинематографистами</p>
+	   <details>
+	   <summary>Галерея</summary>
+	   <div class="row">
+	   <div class="col-lg-4 col-md-4 col-6 thumb">
+                        <a data-fancybox="gallery" href="css/img/kino/illy/1.jpg">
+                <img class="img-fluid" src="css/img/kino/illy/1.jpg" alt="...">
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-6 thumb">
+                        <a data-fancybox="gallery" href="css/img/kino/illy/2.jpg">
+                <img class="img-fluid" src="css/img/kino/illy/2.jpg" alt="...">
+            </a>
+        </div>
+		<div class="col-lg-4 col-md-4 col-6 thumb">
+                        <a data-fancybox="gallery" href="css/img/kino/illy/3.jpg">
+                <img class="img-fluid" src="css/img/kino/illy/3.jpg" alt="...">
+            </a>
+        </div>
+		</div>
+		</details>
+	<details>
+		<summary>Контакты</summary>
+		<p>Адрес: Котельническая наб., 1/15 (Сталинская высотка)<br>
+м. Таганская, м. Китай-город</p>
+<ul>Телефоны
+<li>(495) 915-43-53</li>
+<li>(495) 915-43-39</li>
+</ul>
+</details>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-primary" onclick="window.open('http://illuzion-cinema.ru/elektronnaya-kassa-kinoteatra/')">Купить билеты</button>
+      </div>
+    </div>
+</div>
+</div>
+</div><!-- конец модального окна -->
+
+  <!-- ModalPioner -->
+<div class="modal fade pionerModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="pionerModal">Кинотеатр Пионер</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+	  <p>Кинотеатр Пионер в обновленном виде открылся в октябре 2009 года и быстро стал главным местом для ценителей настоящего кино, требовательных к качеству изображения, звука и предпочитающих смотреть фильмы на языке оригинала с субтитрами.
+	  В репертуаре кинотеатра — главные кинохиты от артхауса до актуального арт-мейнстрима и авторских блокбастеров. 
+	  Пионер — это кинотеатр без попкорна, что во многом определяет его атмосферу./p>
+	  <p>В Пионере на Кутузовском 2 зала, по 84 места в каждом. Кинотеатр оснащен самым современным оборудованием, позволяющим смотреть фильмы как в 3D-проекции, так и с пленки. </p>
+	  <p>На протяжении всего года в Пионере проходят различные кинофестивали, а также недели национальных кинематографий — французской, израильской, польской и других.</p>
+	  <p>Пионер также является официальной площадкой Московского международного кинофестиваля и входит в ассоциацию артхаусных кинотеатров CICAE и Europa Cinemas.</p>
+	  <p>В сеть Пионер также входят два летних кинотеатра в Парке Горького и в Парке Сокольники. Летний Пионер в Парке Горького — самый большой открытый кинотеатр в России, вмещающий более 400 зрителей. 
+	  Летний Пионер в Парке Сокольники рассчитан на 300 мест.</p>
+	  <p>Летние кинотеатры Пионер открыты с мая по октябрь и работают при любой погоде. 
+	  Кинотеатры оснащены самым современным оборудованием, позволяющим смотреть фильмы как в 3D-проекции, так и с пленки. 
+	  В Летнем Пионере проходят различные фестивали, специальные показы, премьеры, а в дневное время — лекции, мастер-классы, концерты и даже театральные спектакли и поэтические вечера. </p>
+	  <details>		
+	<summary>Галерея</summary>
+	   <div class="row">
+	   <div class="col-lg-3 col-md-3 col-3 thumb">
+                        <a data-fancybox="gallery" href="css/img/kino/pioner/1.jpg">
+                <img class="img-fluid" src="css/img/kino/pioner/1.jpg" alt="...">
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-3 col-3 thumb">
+                        <a data-fancybox="gallery" href="css/img/kino/pioner/2.jpg">
+                <img class="img-fluid" src="css/img/kino/pioner/2.jpg" alt="...">
+            </a>
+        </div>
+		<div class="col-lg-3 col-md-3 col-3 thumb">
+                        <a data-fancybox="gallery" href="css/img/kino/pioner/3.jpg">
+                <img class="img-fluid" src="css/img/kino/pioner/3.jpg" alt="...">
+            </a>
+        </div>
+		<div class="col-lg-3 col-md-3 col-3 thumb">
+                        <a data-fancybox="gallery" href="css/img/kino/pioner/4.jpg">
+                <img class="img-fluid" src="css/img/kino/pioner/4.jpg" alt="...">
+            </a>
+        </div>
+		</div>
+		</details>
+	  		<details>
+		<summary>Контакты</summary>
+<p><ul>Адрес:<li> Москва, Кутузовский пр-т 21</li></ul>
+<ul>Телефон
+<li>+7 499 240-52-40</li>
+</ul></p>
+</details>
+	      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+       <button type="button" class="btn btn-primary" onclick="window.open('https://pioner-cinema.ru/russian-version-of-schedule/')">Купить билеты</button>
+      </div>
+    </div>
+</div>
+</div>
+</div><!-- конец модального окна -->
+  
+
+  <!-- ModalMI -->
+<div class="modal fade miModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="miModal">Кинотеатр Мир искусства</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+	 <p>Кинотеатр «Мир искусства»  уникальный кинотеатр, единственный в своём роде, кинотеатр со своим лицом. 
+	 Душой его является необычный репертуар. 
+	 Здесь вы можете увидеть то, что нельзя посмотреть в других кинотеатрах: классику мирового кино, современное авторское кино, фильмы по искусству, документальное и анимационное кино, короткометражное кино, работы молодых кинематографистов.
+	 Прежде всего, такие фильмы, которые можно назвать произведениями искусства. 
+	 Репертуар имеет ярко выраженный режиссёрский акцент. Каждую неделю здесь идут две режиссёрские ретроспективы классиков мирового кино от Сергея Эйзенштейна до Ларса фон Триера. </p>
+	 <p>Вы имеете возможность познакомиться с творчеством великих режиссёров в развитии. 
+	 Но это всегда шедевры или как мы их называем фильмы-«шатлы», фильмы многоразового использования. 
+	 То есть это не однодневки, которые живут только первую неделю проката, а кинокартины, которые интересно будет смотреть и через 10 лет, а идея посмотреть их повторно не вызывает зевоту, а порождает энтузиазм и воодушевление.
+	 Каждый новый просмотр классики мирового кино открывает в них что-то новое и неизменно продолжает доставлять удовольствие. Репертуар кинотеатра очень разнообразный.
+	 Ни один фильм в течение недели не повторяется, то есть еженедельно мы показываем 35 разных фильмов, поэтому каждый зритель может выбрать себе фильм по своему вкусу.</p>
+	 <p>Кинотеатр «Мир искусства» имеет уютный зал на 49 мест (7 рядов по 7 мест), оборудованный удобными креслами, большой экран и шестиканальный звук.</p>
+	 <p>Купить билет возможно только в кассе кинотеатра</p>
+	 <details>
+	   <summary>Галерея</summary>
+	   <div class="row">
+	   <div class="col-lg-4 col-md-4 col-6 thumb">
+                        <a data-fancybox="gallery" href="css/img/kino/mi/1.jpg">
+                <img class="img-fluid" src="css/img/kino/mi/1.jpg" alt="...">
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-6 thumb">
+                        <a data-fancybox="gallery" href="css/img/kino/mi/2.jpg">
+                <img class="img-fluid" src="css/img/kino/mi/2.jpg" alt="...">
+            </a>
+        </div>
+		<div class="col-lg-4 col-md-4 col-6 thumb">
+                        <a data-fancybox="gallery" href="css/img/kino/mi/3.jpg">
+                <img class="img-fluid" src="css/img/kino/mi/3.jpg" alt="...">
+            </a>
+        </div>
+		</div>
+		</details>
+	  		<details>
+		<summary>Контакты</summary>
+		
+<p>Адрес:<br> м. Новослободская, ул. Долгоруковская, д. 33, стр. 3
+<br>
+<ul><li>Телефон: (499) 978–66–19 (звонить согласно расписанию кинотеатра) </li></ul></p>
+</details>
+	      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+       <button type="button" class="btn btn-primary" onclick="window.open('http://www.chronotop.ru/')">Расписание</button>
+      </div>
+    </div>
+</div>
+</div>
+</div><!-- конец модального окна -->  
+  
+  <!-- ModalFORM -->
+  <div class="modal fade formModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="formModal">Обратная связь</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="php/form.php" method="get" class="text-white">
+  <div class="form-group">
+    <label for="name">Ваше имя: </label>
+    <input type="text" class="form-control" name="name" placeholder="Ваше Имя">
+  </div>
+  <div class="form-group">
+    <label for="E-mail">E-mail</label>
+    <input type="text" class="form-control" name="mail" placeholder="email@example.com">
+  </div>
+  <div class="form-group">
+    <label for="message">Комментарий</label>
+    <textarea class="form-control" rows="3" name="text" placeholder="Ваш комментарий"></textarea>
+  </div>
+  </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+        <button type="submit" class="btn btn-default">Отправить</button>
+      </div>
+    </div>
+</div> 
+</div>
+
+<!-- ModalClose -->
+  <div class="modal fade techModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="techModal">Тех.работы</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Извините, в данном разделе идут Тех. Работы.</p>
+		<p>Мы скоро откроемся</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+</div> 
+</div>		
+		
+		<!-- search.js scripts-->
+	<script src="js/search.js"></script>
+	<script src="js/searchCHAR.js"></script>
+	  
+  </body>
+
+</html>
