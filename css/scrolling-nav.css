@@ -130,3 +130,38 @@ td
 	background-repeat: no-repeat;
 	color: white;
 }
+
+.fomenko
+{
+	background-image: url(img/theatre/bckg/fom.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}	
+
+.sti
+{
+	background-image: url(img/theatre/bckg/sti.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.big
+{
+	background-image: url(img/theatre/bckg/big.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.catra
+{
+	background-image: url(img/theatre/bckg/catra.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
