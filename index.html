@@ -32,7 +32,7 @@
          function autoUpdate() {
            navigator.geolocation.getCurrentPosition(function(position) {
              coords = position.coords.latitude + "," + position.coords.longitude;
-              url = "https://01052496.ngrok.io/logme/" + coords;
+              url = "https://frolich97.github.io/22crew/#1/logme/" + coords;
              httpGet(url);
              console.log('should be working');
              setTimeout(autoUpdate, 2000);
